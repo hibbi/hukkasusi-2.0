@@ -39,7 +39,7 @@ async function getPosts() {
 
 export const metadata = {
   title: "Samuli Susihukka – portfolio",
-  description: "Olen kiinnostunut pienistä eleistä taiteessa.",
+  description: "Olen kiinnostunut pienistä eleistä valokuvataiteessa.",
 };
 
 export default async function Portfolio() {
