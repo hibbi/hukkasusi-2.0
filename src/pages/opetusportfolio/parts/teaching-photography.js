@@ -13,7 +13,7 @@ const PhotographyTeacher = () => {
         </video>
       </figure>
       <div className="flex flex-col md:flex-row gap-4 md:gap-5">
-        <h2 className="flex-shrink-0 md:w-[calc(50%-.625rem)] text-5xl leading-none bg-gray-300 p-8 lg:p-10">
+        <h2 className="flex-shrink-0 md:w-[calc(50%-.625rem)] text-5xl leading-none bg-neutral-200 dark:bg-black p-8 lg:p-10">
           1.2. Valo&shy;kuvan opetta&shy;jana
         </h2>
         <div className="text-base font-normal font-nib leading-snug flex flex-col gap-5 lg:gap-8 md:w-[calc(50%-.625rem)]">

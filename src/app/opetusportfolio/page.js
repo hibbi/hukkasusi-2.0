@@ -16,7 +16,7 @@ import Hero from "@/pages/opetusportfolio/parts/sub-parts/hero";
 export default function Protected() {
   return (
     <LenisScroll>
-      <div className="p-8 overflow-hidden w-full bg-white">
+      <div className="p-8 overflow-hidden w-full bg-white dark:bg-neutral-900">
         <div className="flex flex-col">
           <div className="flex flex-col gap-[18.75rem]">
             <div className="flex flex-col relative h-[calc(100vh-2rem)] items-center justify-between pt-14 pb-8">

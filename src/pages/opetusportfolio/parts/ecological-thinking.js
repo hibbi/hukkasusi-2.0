@@ -12,7 +12,7 @@ const EcologicalThinking = () => {
         </video>
       </figure>
       <div className="flex flex-col md:flex-wrap md:flex-row gap-4 md:gap-5">
-        <div className="order-2 md:order-1 text-base font-normal flex flex-col gap-5 lg:gap-8 leading-snug md:w-[calc(50%-.625rem)] bg-coral p-8 lg:p-10">
+        <div className="order-2 md:order-1 text-base font-normal flex flex-col gap-5 lg:gap-8 leading-snug md:w-[calc(50%-.625rem)] bg-coral dark:text-black p-8 lg:p-10">
           <p className="font-nib">
             Ekologiset kriisit määrittävät yhä useampien ihmisten arkea ja
             elämisen tapoja. Globaali tulevaisuutemme maapallolla on
@@ -25,7 +25,7 @@ const EcologicalThinking = () => {
           </p>
           <p className="text-sm">Lapin yliopiston motivaatikirje, 2020</p>
         </div>
-        <h2 className="order-1 md:order-2 flex-shrink-0 md:w-[calc(50%-.625rem)] text-5xl leading-none bg-violet p-8 lg:p-10">
+        <h2 className="order-1 md:order-2 flex-shrink-0 md:w-[calc(50%-.625rem)] text-5xl leading-none bg-violet dark:text-black p-8 lg:p-10">
           3. Taiteen ja sivis&shy;tyksen mahdolli&shy;suuksista
         </h2>
         <div className="order-3 text-base font-normal font-nib leading-snug  md:w-[calc(59%-.625rem)] bg-black text-white p-8 lg:p-10">
@@ -42,7 +42,7 @@ const EcologicalThinking = () => {
             viherpesua.
           </p>
         </div>
-        <div className="order-4 text-base font-normal font-nib leading-snug flex flex-col gap-5 lg:gap-8 md:w-[calc(41%-.625rem)] bg-yellow p-8 lg:p-10">
+        <div className="order-4 text-base font-normal font-nib leading-snug flex flex-col gap-5 lg:gap-8 md:w-[calc(41%-.625rem)] bg-yellow dark:text-black p-8 lg:p-10">
           <p>
             Ajatteluni taustalla on tutkimuksen kautta muodostettu tieto
             maapallon tilasta. Ilmastonmuutos, lajikato ja lähiympäristöjä
