@@ -17,7 +17,7 @@ export default function GalleryBlock({ innerBlocks }) {
                 srcSet={img.mediaItem.node.srcSet}
               />
             </picture>
-            <figcaption className="text-right">
+            <figcaption className="text-right text-sm">
               {parseHtml(img.mediaItem.node.caption)}
             </figcaption>
           </figure>

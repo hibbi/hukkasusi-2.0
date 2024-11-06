@@ -51,12 +51,9 @@ export const metadata = {
 };
 
 export default async function Post({ params }) {
-  console.log("post!");
   try {
     const { slug } = await params;
     const post = await getPost(slug);
-
-    console.log(post);
     if (post) {
       return (
         <div className="flex flex-col md:grid md:grid-cols-12 gap-x-[1.5vw] mx-8 py-12">

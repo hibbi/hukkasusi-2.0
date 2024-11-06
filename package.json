@@ -11,10 +11,15 @@
   "dependencies": {
     "@apollo/client": "^3.11.8",
     "@apollo/experimental-nextjs-app-support": "^0.11.5",
+    "@devnomic/marquee": "^1.0.2",
+    "cookie": "^1.0.1",
     "html-react-parser": "^5.1.18",
+    "lenis": "^1.1.14",
     "next": "15.0.1",
+    "next-auth": "^4.24.10",
     "react": "19.0.0-rc-69d4b800-20241021",
-    "react-dom": "19.0.0-rc-69d4b800-20241021"
+    "react-dom": "19.0.0-rc-69d4b800-20241021",
+    "react-intersection-observer": "^9.13.1"
   },
   "devDependencies": {
     "eslint": "^8",
@@ -25,6 +30,18 @@
   "overrides": {
     "html-react-parser": {
       "react": "19.0.0-rc-69d4b800-20241021"
+    },
+    "next-auth": {
+      "react": "19.0.0-rc-69d4b800-20241021",
+      "react-dom": "19.0.0-rc-69d4b800-20241021",
+      "next": "15.0.1"
+    },
+    "lenis": {
+      "react": "19.0.0-rc-69d4b800-20241021"
+    },
+    "react-intersection-observer": {
+      "react": "19.0.0-rc-69d4b800-20241021",
+      "react-dom": "19.0.0-rc-69d4b800-20241021"
     }
   }
 }

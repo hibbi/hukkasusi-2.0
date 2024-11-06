@@ -5,7 +5,44 @@
 :root {
   --background: #dbdbdb;
   --foreground: #171717;
+  --coral: #F5A682;
+  --violet: #c3abff;
+  --yellow: #fed35b;
+  --pink: #fbc1d4;
 }
+
+:root {
+  font-size: 4.2666666667vw;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1.5rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.75rem;
+  --font-size-4xl: 2rem;
+  --font-size-5xl: 4rem;
+  --font-size-6xl: 10.0625rem;
+
+}
+
+@media (min-width: 640px) {
+  :root {
+    font-size: 1.5625vw;
+    --font-size-6xl: 21.875rem
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    font-size: min(.8333333333vw,.8333333333vh*2.3);
+    --font-size-sm: 1.5rem;
+    --font-size-base: 2rem;
+    --font-size-2xl: 2.5rem;
+    --font-size-3xl: 3rem;
+    --font-size-4xl: 4.75rem;
+    --font-size-5xl: 6rem;
+    --font-size-6xl: 30.5625rem;
+  }
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -13,6 +50,11 @@
     --foreground: #ededed;
   }
 }
+
+html {
+  font-size: var(--font-size);
+}
+
 
 body {
   color: var(--foreground);
