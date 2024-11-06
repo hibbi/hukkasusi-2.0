@@ -26,8 +26,7 @@ const EcologicalThinking = () => {
           <p className="text-sm">Lapin yliopiston motivaatikirje, 2020</p>
         </div>
         <h2 className="order-1 md:order-2 flex-shrink-0 md:w-[calc(50%-.625rem)] text-5xl leading-none bg-violet p-8 lg:p-10">
-          3. Ekologi&shy;suudesta; taiteen ja kasva&shy;tuksen
-          mahdolli&shy;suudesta
+          3. Taiteen ja sivis&shy;tyksen mahdolli&shy;suuksista
         </h2>
         <div className="order-3 text-base font-normal font-nib leading-snug  md:w-[calc(59%-.625rem)] bg-black text-white p-8 lg:p-10">
           <p>
@@ -45,11 +44,13 @@ const EcologicalThinking = () => {
         </div>
         <div className="order-4 text-base font-normal font-nib leading-snug flex flex-col gap-5 lg:gap-8 md:w-[calc(41%-.625rem)] bg-yellow p-8 lg:p-10">
           <p>
-            Ajatteluni taustalla on tutkimuksen kautta muodostettu tieto maapallon tilasta. Ilmastonmuutos, lajikato ja lähiympäristöjä tuhoava kaivosteollisuus etenevät vääjäämättä.
-            Pedagoginen otteeni kumpaa näin ollen samoista lähtökohdista kuin
-            taiteellinen työskentelyni sillä erotuksella, että ensimmäisestä on
-            helpompaa luoda praktiikkaa. Ekologisesti kestävän opetuspraktiikan,
-            siis jonkinlaisen spekulatiivisen jälkifossiilisuuden omaksuvan
+            Ajatteluni taustalla on tutkimuksen kautta muodostettu tieto
+            maapallon tilasta. Ilmastonmuutos, lajikato ja lähiympäristöjä
+            tuhoava kaivosteollisuus etenevät vääjäämättä. Pedagoginen otteeni
+            kumpaa näin ollen samoista lähtökohdista kuin taiteellinen
+            työskentelyni sillä erotuksella, että ensimmäisestä on helpompaa
+            luoda praktiikkaa. Ekologisesti kestävän opetuspraktiikan, siis
+            jonkinlaisen spekulatiivisen jälkifossiilisuuden omaksuvan
             kuvataidekasvatuksen käytäntö on toistaiseksi henkilökohtaista
             utopiaa, jossa sekä taiteen että opetuksen potentiaali nivoutuvat
             haastamaan länsimaista subjektikäsitystä (ks. Salminen 2015).
