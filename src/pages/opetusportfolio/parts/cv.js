@@ -9,7 +9,6 @@ const CV = () => {
   return (
     <section
       id="services"
-      className="pt-16 mt-20"
     >
       <div className="items-center flex flex-col gap-5 lg:gap-8 content-start relative">
         <h2 className="self-start leading-tight text-base">Opetuskokemus</h2>

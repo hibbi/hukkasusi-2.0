@@ -12,6 +12,7 @@ import LenisScroll from "@/components/lenis";
 import CV from "@/pages/opetusportfolio/parts/cv";
 import Marquee from "@/pages/opetusportfolio/parts/sub-parts/marquee";
 import Hero from "@/pages/opetusportfolio/parts/sub-parts/hero";
+import Education from "@/pages/opetusportfolio/parts/education";
 
 export default function Protected() {
   return (
@@ -25,6 +26,7 @@ export default function Protected() {
             </div>
             <Epilogue />
             <CV />
+            <Education />
             <ArtTeacher />
             <PhotographyTeacher />
             <WhoAmI />
