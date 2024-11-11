@@ -31,7 +31,6 @@ export default function Protected() {
             <ArtTeacher />
             <PhotographyTeacher />
             <WhoAmI />
-            <Philosophy />
             <EcologicalThinking />
             <Critic />
             <Ending />
