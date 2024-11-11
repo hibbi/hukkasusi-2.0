@@ -13,13 +13,14 @@ import CV from "@/pages/opetusportfolio/parts/cv";
 import Marquee from "@/pages/opetusportfolio/parts/sub-parts/marquee";
 import Hero from "@/pages/opetusportfolio/parts/sub-parts/hero";
 import Education from "@/pages/opetusportfolio/parts/education";
+import Philosophy from "@/pages/opetusportfolio/parts/philosophy";
 
 export default function Protected() {
   return (
     <LenisScroll>
       <div className="p-8 overflow-hidden w-full bg-white dark:bg-neutral-900">
         <div className="flex flex-col">
-          <div className="flex flex-col gap-[18.75rem]">
+          <div className="flex flex-col gap-40 lg:gap-72">
             <div className="flex flex-col relative h-[calc(100vh-2rem)] items-center justify-between pt-14 pb-8">
               <Marquee />
               <Hero />
@@ -30,6 +31,7 @@ export default function Protected() {
             <ArtTeacher />
             <PhotographyTeacher />
             <WhoAmI />
+            <Philosophy />
             <EcologicalThinking />
             <Critic />
             <Ending />

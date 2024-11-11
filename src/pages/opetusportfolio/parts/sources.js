@@ -1,11 +1,16 @@
 const Sources = () => {
   return (
-    <section id="sources" className="mb-[18.75rem]">
+    <section id="sources" className="mb-40 lg:mb-72">
       <div className="flex flex-col md:grid md:grid-cols-12 gap-x-[1.5vw] gap-y-20">
         <h2 className="md:col-span-12 text-center text-6xl leading-none">
           Läh&shy;teet
         </h2>
         <div className="md:col-span-6 flex flex-col gap-5 lg:gap-8 text-sm font-normal">
+          <p>
+            <sup>1</sup> Toisissa Tiloissa ry. (julkaisuaika tuntematon).{" "}
+            <em className="font-italic">Susisafari</em>.
+            https://toisissatiloissa.net/en/susisafari-2/
+          </p>
           <p>
             Nurmenniemi, K. (2020). Polttava taide. EDIT. Haettu 31.10.2024
             https://editmedia.fi/polttava-taide/
@@ -15,6 +20,14 @@ const Sources = () => {
             et.al. (2023). Earth beyond six of nine planetary boundaries.{" "}
             <em className="font-italic">Science Advances, 9</em>(37)
             https://doi.org/10.1126/sciadv.adh2458
+          </p>
+          <p>
+            Roswag-Klinge, E., Pawlicki, N., Crabbe, M. (2019). Architectural
+            Education for a Post-Fossil Future.{" "}
+            <em className="font-italic">
+              IOP Conference Series: Earth and Environmental Science, 323
+            </em>
+            . https://iopscience.iop.org/article/10.1088/1755-1315/323/1/012157
           </p>
           <p>
             Salminen, A. (2015).{" "}

@@ -2,7 +2,7 @@ const Epilogue = () => {
   return (
     <section
       id="epilogue"
-      className="md:grid md:grid-cols-12 gap-x-[1.5vw] flex flex-col gap-y-[18.75rem]"
+      className="md:grid md:grid-cols-12 gap-x-[1.5vw] flex flex-col gap-y-40 lg:gap-y-72"
     >
       <div className="md:col-span-7 text-3xl leading-snug font-normal flex flex-col gap-5 lg:gap-8 font-nib">
         <p>

@@ -5,7 +5,7 @@ const PhotographyTeacher = () => {
   return (
     <section
       id="teacher_of_photography"
-      className="flex items-center flex-col gap-[18.75rem]"
+      className="flex items-center flex-col gap-40 lg:gap-72"
     >
       <figure className="w-full relative flex">
         <video className="object-cover w-full" autoPlay loop>

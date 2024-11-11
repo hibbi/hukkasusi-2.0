@@ -45,7 +45,7 @@ const Ending = () => {
             Temmellyskenttä, jossa kaikki ovat samanarvoisia ja kuultuja.
           </p>
         </div>
-        <div className="md:col-span-12 my-[18.75rem]">
+        <div className="md:col-span-12 my-40 lg:my-72">
           <figure className="w-full relative flex">
             <Image
               className="object-cover w-full"

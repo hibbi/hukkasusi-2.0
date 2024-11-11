@@ -5,7 +5,7 @@ const Critic = () => {
         <div className="md:col-span-6 md:col-start-4">
           <h2 className="text-6xl leading-none text-center">4.</h2>
           <h3 className="text-base text-center font-nib">Kritiikki</h3>
-          <div className="flex flex-col text-2xl gap-5 lg:gap-8 leading-snug font-normal font-nib text-center mt-[18.75rem]">
+          <div className="flex flex-col text-2xl gap-5 lg:gap-8 leading-snug font-normal font-nib text-center mt-40 lg:mt-72">
             <p>
               Opetustilanteissa olen saanut palautetta muilta
               opetusharjoittelijoilta, ohjaavalta opettajalta ja kollegoilta.
@@ -25,7 +25,9 @@ const Critic = () => {
               tuntemattomalle alueella joutuessani patistamaan oppilaita
               työskentelyyn. Usein alustuksissani hairahdun aiheiden
               pientareille. Saatan myös usein samaistua oppilaiden käyttämään
-              kieleen. Tämä käytös juontaa juurensa kertaterapeutin opintoihini, joissa kehotettiin löytämään asiakkaan kanssa yhteinen käsitteistö.
+              kieleen. Tämä käytös juontaa juurensa kertaterapeutin opintoihini,
+              joissa kehotettiin löytämään asiakkaan kanssa yhteinen
+              käsitteistö.
             </p>
             <p>
               Saadun kritiikin pohjalta olen pohtinut omaa rooliani
