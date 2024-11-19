@@ -13,7 +13,6 @@ import CV from "@/pages/opetusportfolio/parts/cv";
 import Marquee from "@/pages/opetusportfolio/parts/sub-parts/marquee";
 import Hero from "@/pages/opetusportfolio/parts/sub-parts/hero";
 import Education from "@/pages/opetusportfolio/parts/education";
-import Philosophy from "@/pages/opetusportfolio/parts/philosophy";
 
 export default function Protected() {
   return (

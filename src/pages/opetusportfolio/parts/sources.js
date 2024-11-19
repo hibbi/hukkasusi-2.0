@@ -7,9 +7,26 @@ const Sources = () => {
         </h2>
         <div className="md:col-span-6 flex flex-col gap-5 lg:gap-8 text-sm font-normal">
           <p>
-            <sup>1</sup> Toisissa Tiloissa ry. (julkaisuaika tuntematon).{" "}
+            <sup>1</sup> Heutagogian voidaan katsoa olevan andragogiikan
+            sivuhaara, jossa korostuu opiskelijan itsemääräytyvyys (Alabisi &
+            Vucetic-Trifirò 2023, 5). Roswag-Klingen ja kumppanien mukaan
+            heutagogiikka tuo todellisen potentiaalin kaksisuuntaiseen
+            oppimisprosessiin.
+          </p>
+          <p>
+            <sup>2</sup> Toisissa Tiloissa ry. (julkaisuaika tuntematon).{" "}
             <em className="font-italic">Susisafari</em>.
             https://toisissatiloissa.net/en/susisafari-2/
+          </p>
+          <p>
+            Alabisi, A., & Vucetic-Trifirò, C. E. (2023). Pedagogy, andragogy
+            and heutagogy: How are they related?{" "}
+            <em className="font-italic">
+              The e - Journal of Business Education & Scholarship of Teaching,
+              17
+            </em>
+            (2), s. 1–7.
+            https://www.proquest.com/scholarly-journals/pedagogy-andragogy-heutagogy-how-are-they-related/docview/2878448011/se-2
           </p>
           <p>
             Nurmenniemi, K. (2020). Polttava taide. EDIT. Haettu 31.10.2024

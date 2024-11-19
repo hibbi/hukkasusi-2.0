@@ -29,7 +29,7 @@ const WhoAmI = () => {
             Canon-merkkisen kamerani kanssa näpsien valokuvia miessukupuolisesta
             kurssitoveristani, jonka kanssa pohdimme sukupuolirepresentaatiota
             meikkaamisen kautta. Myöhemmin kurssin kritiikkikeskustelussa vuonna
-            2008 omat vuosien varrella juurtuneet tapani ajatella taiteesta ja
+            2008, omat vuosien varrella juurtuneet tapani ajatella taiteesta ja
             omasta taiteen tekemisen mielekkyydestä tuhoutuivat. Huomasin
             taiteen olevan ennen kaikkea ajattelua ja sen siirtämistä tai
             kanavoimista jonkinlaiseksi näkyväksi tai koettavaksi esineeksi tai

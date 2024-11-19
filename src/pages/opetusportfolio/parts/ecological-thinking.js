@@ -43,10 +43,10 @@ const EcologicalThinking = () => {
         <div className="md:grid md:grid-cols-12 gap-x-[1.5vw] flex flex-col text-base font-normal font-nib leading-snug">
           <div className="md:col-span-6 md:col-start-5 flex flex-col gap-5 lg:gap-8">
             <p>
-              Ajatteluni taustalla on tutkimuksen kautta muodostettu tieto
-              maapallon tilasta. Ilmastonmuutos, lajikato ja lähiympäristöjä
-              tuhoava kaivosteollisuus etenevät vääjäämättä. Pedagoginen otteeni
-              kumpaa väistämättä samoista lähtökohdista kuin taiteellinen
+              Ajatteluni taustalla on tieteen kautta muodostettu tieto maapallon
+              tilasta. Ilmastonmuutos, lajikato ja lähiympäristöjä tuhoava
+              kaivosteollisuus etenevät vääjäämättä. Pedagoginen otteeni kumpuaa
+              väistämättä samoista lähtökohdista kuin taiteellinen
               työskentelyni. Vain ensimmäisestä on helpompaa luoda praktiikka.
               Ekologisesti kestävän opetuspraktiikan, siis jonkinlaisen
               spekulatiivisen jälkifossiilisuuden omaksuvan kuvataidekasvatuksen
@@ -55,13 +55,15 @@ const EcologicalThinking = () => {
               länsimaista subjektikäsitystä (ks. Salminen 2015).
             </p>
             <p>
-              Avauksia jälkifossiilisesta yliopisto-opetuksesta on tehty (ks.
-              Roswag-Klinge ym. 2019). Praktiikalle voidaan pitää perustana
-              jonkinlaista yhteistoimijuutta ja -tekijyyttä painottavia
-              opetusmenetelmiä. Sen lisäksi katson, että opetuksen tulisi
-              nojautua tarkastelemaan luopumisen problematiikkaa. Onko
+              Avauksia jälkifossiilisesta yliopisto-opetuksesta on muotoiltu (ks. esim.
+              Roswag-Klinge ym. 2019). Roswag-Klinge ja kumppanit (2019) muotoilemat jälkifossiiliset
+              arkkitehtuurin opetusmenetelmät ammentavatkin itsemääräytyvää
+              oppimista painottavasta heutagogiasta<sup>1</sup>. Oli kyseessä sitten pedagogiikka tai heutagogiikka, jälkifossiiliselle praktiikalle voidaan pitää
+              perustana jonkinlaisia yhteistoimijuutta ja -tekijyyttä
+              painottavia opetusmenetelmiä. Sen lisäksi katson, että opetuksen
+              tulisi nojautua tarkastelemaan luopumisen problematiikkaa. Onko
               ekologisin teos sellainen, jota ei ole olemassa? Voisiko
-              esimerkiksi Toisissa tiloissa -kollektiivin<sup>1</sup> teoksista
+              esimerkiksi Toisissa tiloissa -kollektiivin<sup>2</sup> teoksista
               ammentaa luopumisen ja kohtaamisen käytänteitä?
             </p>
             <p>
