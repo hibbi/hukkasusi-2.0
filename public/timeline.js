@@ -41,5 +41,30 @@ export const Data = {
           "Uusikaarlepyyssä sijaitseva ruotsinkielinen taidekoulu on ollut tärkeä osa ruotsinkielisen Pohjanmaan taidekoulutusta. Valokuvan koulutusta on järjestetty vuodesta 1991.",
       },
     },
+    {
+      time: "1992–",
+      text: {
+        headline:
+          "Turun taiteen ja viestinnän oppilaitos (nyk. Turun ammattikorkeakoulun Taideakatemia)",
+        content:
+          "Turun valokuva-alan koulutus keskittyy valokuvauksen teknisiin ja taiteellisiin osa-alueisiin, ja se on kehittynyt vuosien varrella monimuotoiseksi ja ammatilliseksi valokuvauskoulutukseksi, jossa painotetaan sekä luovuutta että alan käytännön taitoja.",
+      },
+    },
+    {
+      time: "2002–",
+      text: {
+        headline: "Tampereen yliopiston kuvajournalismi",
+        content:
+          "Perustettiin vastaamaan kasvaneeseen tarpeeseen valokuvauksen ja journalismin yhdistämisestä. Koulutuksen taustalla oli halu kehittää ja tarjota ammattitaitoa erityisesti visuaalisessa viestinnässä ja valokuvajournalismissa.",
+      },
+    },
+    {
+      time: "1990–",
+      text: {
+        headline: "Ensimmäiset valokuvataiteesta väitelleet taiteen tohtorit",
+        content:
+          "Valokuvataiteen akateeminen tunnustus Suomessa alkoi 1990-luvulla, jolloin ensimmäiset valokuvataiteesta väitelleet taiteen tohtorit valmistuivat. (1990, Pekka Tuovinen: On the wavelength, time and inclination variables of photographic exposures with applications to scanning imaging.)",
+      },
+    },
   ],
 };
