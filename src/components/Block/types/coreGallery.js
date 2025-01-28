@@ -3,7 +3,7 @@ import parseHtml from "@/components/parser";
 
 export default function GalleryBlock({ innerBlocks }) {
   return (
-    <div className="md:col-start-3 md:col-end-10 md:row-start-3 flex flex-col gap-y-8">
+    <div className="col-span-4 md:col-start-3 md:col-end-10 md:row-start-3 flex flex-col gap-y-8">
       {innerBlocks.map((img) => {
         return (
           <figure key={img.mediaItem.node.id} className="">

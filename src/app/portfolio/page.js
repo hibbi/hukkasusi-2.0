@@ -45,14 +45,11 @@ export const metadata = {
 export default async function Portfolio() {
       const data = await getPosts();
   return (
-    <div className="flex md:grid md:grid-cols-12 gap-x-[1.5vw] mx-8 pt-12">
-      <div className="flex flex-col md:col-start-3 md:col-end-9">
+    <div className="grid px-4 pt-12">
+      <div className="flex flex-col col-span-4 md:col-start-3 md:col-end-9">
         {data.edges.map((post) => (
-          <Link
-            key={post.node.postId}
-            href={`/portfolio/${post.node.slug}`}
-          >
-            <span className="text-2xl">
+          <Link key={post.node.postId} href={`/portfolio/${post.node.slug}`}>
+            <span className="text-base">
               {post.node.year} {post.node.title}
             </span>
           </Link>

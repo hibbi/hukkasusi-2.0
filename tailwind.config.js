@@ -11,21 +11,22 @@ module.exports = {
   ],
   theme: {
     fontSize: {
-      sm: "var(--font-size-sm)",
-      base: "var(--font-size-base)",
+      sm: "var(--font-size)",
+      base: "var(--font-size-medium)",
       xl: "1.25rem",
       "2xl": "var(--font-size-2xl)",
       "3xl": "var(--font-size-3xl)",
       "4xl": "var(--font-size-4xl)",
       "5xl": "var(--font-size-5xl)",
       "6xl": "var(--font-size-6xl)",
+      huge: "var(--font-size-huge)"
     },
     extend: {
       fontFamily: {
         nib: ["var(--font-nib)"],
       },
       colors: {
-        background: "var(--background)",
+        background: "var(--silver-soft)",
         foreground: "var(--foreground)",
         coral: "var(--coral)",
         violet: "var(--violet)",

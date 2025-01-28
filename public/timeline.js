@@ -1,12 +1,13 @@
 export const Data = {
-  events: [
+  educational: [
     {
       time: "3.11.1842",
       text: {
-        headline: "Suomen ensimmäinen valokuva",
+        headline: "Suomen<br>ensimmäinen valokuva",
         content:
           "Nykytiedon valossa Suomen ensimmäisen valokuvan otti varsinaissuomalainen lääkäri Henrik Cajander 03.11.1842.",
       },
+      id: "cajander",
     },
     {
       time: "1959–",
@@ -16,6 +17,7 @@ export const Data = {
         content:
           "Valokuvan iltakoulu perustettiin Taideteolliseen oppilaitokseen vuoden 1959 aikana. Linja vastasi kasvaneeseen kysyntään suomalaisesta valokuva-alan koulutuksesta. Tätä ennen valokuvaamista oli voinut oppia joko kokeneemmalta valokuvaajalta tai opettelemalla itse.",
       },
+      id: "taik-iltakoulu",
     },
     {
       time: "1960-luku–",
@@ -24,6 +26,7 @@ export const Data = {
         content:
           "Lahdessa alettiin tarjota valokuvauksen koulutusta osana muotoilualan koulutusta. Tällöin oli jo selkeästi käynnissä ammatillisen valokuvaajakoulutuksen kehitys.",
       },
+      id: "lahti-taideoppilaitos",
     },
     {
       time: "1973–",
@@ -32,6 +35,7 @@ export const Data = {
         content:
           "Taideteollinen oppilaitos siirtyi valtion omistukseen vuonna 1965. Vuonna 1973 koulu muutettiin korkeakouluksi ja aikaisemmin käytössä ollut iltakoulumalli, jossa monet opiskelijat olivat aikuisia ja työssäkäyviä, muutettiin täysipäiväiseksi päiväopetukseksi.",
       },
+      id: "taik",
     },
     {
       time: "1991–",
@@ -40,6 +44,7 @@ export const Data = {
         content:
           "Uusikaarlepyyssä sijaitseva ruotsinkielinen taidekoulu on ollut tärkeä osa ruotsinkielisen Pohjanmaan taidekoulutusta. Valokuvan koulutusta on järjestetty vuodesta 1991.",
       },
+      id: "nykarleby",
     },
     {
       time: "1992–",
@@ -49,6 +54,7 @@ export const Data = {
         content:
           "Turun valokuva-alan koulutus keskittyy valokuvauksen teknisiin ja taiteellisiin osa-alueisiin, ja se on kehittynyt vuosien varrella monimuotoiseksi ja ammatilliseksi valokuvauskoulutukseksi, jossa painotetaan sekä luovuutta että alan käytännön taitoja.",
       },
+      id: "turku",
     },
     {
       time: "2002–",
@@ -57,6 +63,7 @@ export const Data = {
         content:
           "Perustettiin vastaamaan kasvaneeseen tarpeeseen valokuvauksen ja journalismin yhdistämisestä. Koulutuksen taustalla oli halu kehittää ja tarjota ammattitaitoa erityisesti visuaalisessa viestinnässä ja valokuvajournalismissa.",
       },
+      id: "uta",
     },
     {
       time: "1990–",
@@ -65,6 +72,18 @@ export const Data = {
         content:
           "Valokuvataiteen akateeminen tunnustus Suomessa alkoi 1990-luvulla, jolloin ensimmäiset valokuvataiteesta väitelleet taiteen tohtorit valmistuivat. (1990, Pekka Tuovinen: On the wavelength, time and inclination variables of photographic exposures with applications to scanning imaging.)",
       },
+      id: "dr",
+    },
+  ],
+  institutional: [
+    {
+      time: "1965",
+      text: {
+        headline: "Kamerataidetoimikunta",
+        content:
+          "Nykytiedon valossa Suomen ensimmäisen valokuvan otti varsinaissuomalainen lääkäri Henrik Cajander 03.11.1842.",
+      },
+      id: "kamerataidetoimikunta",
     },
   ],
 };

@@ -56,9 +56,9 @@ export default async function Post({ params }) {
     const post = await getPost(slug);
     if (post) {
       return (
-        <div className="flex flex-col md:grid md:grid-cols-12 gap-x-[1.5vw] mx-8 py-12">
-          <div className="md:col-span-6 md:col-start-3">
-            <h1 className="text-xl md:text-2xl">{post.title}</h1>
+        <div className="grid px-4">
+          <div className="col-span-4 md:col-span-6 md:col-start-3">
+            <h1 className="text-base">{post.title}</h1>
           </div>
           {post.blocks.map((block, index) => (
             <Block block={block} key={index} />

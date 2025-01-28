@@ -1,5 +1,4 @@
 "use client"; // Ensures this component is treated as a client component
-
 import { ReactLenis, useLenis } from "lenis/react";
 import { useState, useEffect } from "react";
 
