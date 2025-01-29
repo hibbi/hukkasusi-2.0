@@ -10,18 +10,25 @@ module.exports = {
     "./src/layout/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    fontSize: {
-      sm: "var(--font-size)",
-      base: "var(--font-size-medium)",
-      xl: "1.25rem",
-      "2xl": "var(--font-size-2xl)",
-      "3xl": "var(--font-size-3xl)",
-      "4xl": "var(--font-size-4xl)",
-      "5xl": "var(--font-size-5xl)",
-      "6xl": "var(--font-size-6xl)",
-      huge: "var(--font-size-huge)"
+    screens: {
+      sm: "600px",
+      md: "700px",
+      lg: "1025px",
     },
     extend: {
+      fontSize: {
+        xs: "var(--font-size-h5)",
+        sm: "var(--font-size-h4)",
+        base: "var(--font-size)",
+        medium: "var(--font-size-medium)",
+        xl: "var(--font-size-h3)",
+        "2xl": "var(--font-size-h2)",
+        "3xl": "var(--font-size-h1)",
+        huge: "var(--font-size-huge)",
+      },
+      spacing: {
+        grid: "var(--grid-gutter)", // Custom gap value
+      },
       fontFamily: {
         nib: ["var(--font-nib)"],
       },

@@ -14,14 +14,18 @@ import UTA from "@/pages/paradigmat/parts/uta";
 import Nykarleby from "@/pages/paradigmat/parts/nykarleby";
 import Recent from "@/pages/paradigmat/parts/uudet";
 import Finnfoto from "@/pages/paradigmat/parts/finnfoto";
+import Showcase from "@/pages/paradigmat/parts/showcase";
+import Vilho from "@/pages/paradigmat/parts/vilho";
 
 const Paradigmat = () => {
   return (
     <LenisScroll>
-      <main className="flex flex-col gap-[var(--section-gap)]">
+      <main className="flex flex-col gap-[var(--section-gap)] p-[var(--global-padding)]">
         <Hero />
+        <Showcase />
         <Cajander />
         <HAV />
+        <Vilho />
         <TaikIltakoulu />
         <Lahti />
         <Kansalaisopistot />

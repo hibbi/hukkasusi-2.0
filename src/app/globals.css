@@ -150,6 +150,10 @@
   row-gap: var(--sub-gap);
 }
 
+.without-row-gap {
+  row-gap: unset;
+}
+
 .cajander {
   height: 100vh;
   margin-bottom: var(--section-gap);
