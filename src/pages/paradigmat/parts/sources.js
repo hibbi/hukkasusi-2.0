@@ -1,9 +1,9 @@
-const Showcase = () => {
+const Sources = () => {
   return (
-    <section className="text-medium font-normal">
+    <section className="text-medium font-normal mb-24">
       <div className="mb-12">
         <h2>
-          <span>Murroskohdat</span>
+          <span>Kuvalähteet</span>
         </h2>
       </div>
       <ul className="flex flex-col gap-4 lg:gap-0">
@@ -12,186 +12,174 @@ const Showcase = () => {
             Henrik Cajander
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Suomen ensimmäinen valokuva
+            Nobelin talo (1842)
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1842
+            1
           </span>
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Helsingin amatöörivalokuvaajat
+            Kameraseura ry
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Ensimmäinen kameraseura
+            https://kameraseura.fi/toiminta/historia/
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1921
+            2
           </span>
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
+            Valokuvaaja tuntematon
+          </span>
+          <span className="col-span-4 lg:col-start-7 lg:col-end-12">
             Vilho Setälä
           </span>
-          <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Valokuvauksen taito: Eteenpäin pyrkivän harrastajan opas
-          </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1929
+            3
           </span>
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Taideteollinen oppilaitos
+            Aalto-yliopiston arkisto
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Valokuvan iltakoulu
+            Ateneum-rakennuksen historiaa ja työskentelyä iltakoulussa:
+            piirustusharjoitus
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1959–
+            4
           </span>
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Lahden taideoppilaitos
+            Lahden Muotoiluinstituutti - brändi-taideoppilaitos
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Valokuva osana muotoilua
+            https://lahenuutisia.vuodatus.net/lue/2020/01/lahden-muotoiluinstituutin-brandin-raatokarpaset
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1960–
+            5
           </span>
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Kansalaisopistot
+            Porvoon kansalaisopiston arkisto
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Koulutus laajenee
+            Porvoon työväenopiston (nyk. Porvoon kansalaisopisto) esittämä
+            Aleksis Kiven näytelmä "Yö ja Päivä" 1950-luvulla.
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1960–
+            6
           </span>
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Kamerataidetoimikunta
+            Helsingin kaupunginmuseo
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Valokuvataiteen kehitys ja tuki
+            Eteläesplanadi 6 Valtion kamerataidetoimikunnan tilaisuus
+            Valtioneuvoston juhlahuoneistossa Smolnassa
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1965
+            7
           </span>
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Finnfoto
+            Ilkka Pohjanpalo / Suomen valokuvataiteen museo
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Valokuvaajien keskusjärjestö
+            Valokuvajärjestöjen Neuvottelukunnan perustamiskirja
+            allekirjoitettiin 30.5.1968. Vasemmalta valtion
+            kamerataidetoimikunnan edustaja Matti A. Pitkänen, lehtikuvaajien
+            Kalle Kultala, SKsLn Mikko Karjanoja, SVL:n Kai Nordberg,
+            Kamerataiteen yhdistyksen Ritva Renqvist, mainoskuvaajien Pentti
+            Helanne
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1970
+            8
           </span>
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Taideteollinen korkeakoulu
+            Aalto-yliopiston arkisto
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Ensimmäinen korkeakoulutus
+            Taideteollinen korkeakoulu, Hämeentie, Arabianranta
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1973
+            9
           </span>
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Valokuvataiteen instituutiot
+            Aalto-yliopiston arkisto
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Vakiintuminen osaksi taidekenttää
+            Opiskelijoita ja opetustilanteita 1970-luku; Hannu Kähönen
+            opettamassa
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1974–
+            10
           </span>
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Taik
+            Aalto-yliopiston arkisto
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Ensimmäinen korkeakoulutettu sukupolvi
+            Promootio 1993
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1980–
+            11
           </span>
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Taik
+            Yrkeshögskolan Novia
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Ensimmäiset valokuvataiteen tohtorit
+            Aktuella projekt inom kultur som förändringskraft
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1990–
+            12
           </span>
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Svenska Konstskolan i Nykarleby
+            Turun museokeskus
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Ruotsinkielinen taidekoulu
+            Turun taideyhdistyksen piirustuskoulu. Taiteilija H. Henriksson
+            opettaa etsausta.
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1991–
+            13
           </span>
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Turun taiteen ja viestinnän oppilaitos
+            Tampereen korkeakouluyhteisö
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Kuvataiteen alainen valokuvan koulutus
+            Visuaalisen journalismin ja visuaalisen tutkimuksen maisteriohjelma
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1992–
+            14
           </span>
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Tampereen yliopisto
+            
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Kuvajournalismi
+            Miley Cyrus - Wrecking Ball
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            2002–
-          </span>
-        </li>
-        <li className="grid without-row-gap">
-          <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Aalto-yliopisto
-          </span>
-          <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Kandidaattikoulutuksen alasajo
-          </span>
-          <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            2013
-          </span>
-        </li>
-        <li className="grid without-row-gap">
-          <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Aalto-yliopisto
-          </span>
-          <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Maisterikoulutuksen alasajo
-          </span>
-          <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            2022
+            15
           </span>
         </li>
       </ul>
@@ -199,4 +187,4 @@ const Showcase = () => {
   );
 };
 
-export default Showcase;
+export default Sources;

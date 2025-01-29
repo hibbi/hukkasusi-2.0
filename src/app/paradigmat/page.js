@@ -16,6 +16,7 @@ import Recent from "@/pages/paradigmat/parts/uudet";
 import Finnfoto from "@/pages/paradigmat/parts/finnfoto";
 import Showcase from "@/pages/paradigmat/parts/showcase";
 import Vilho from "@/pages/paradigmat/parts/vilho";
+import Sources from "@/pages/paradigmat/parts/sources";
 
 const Paradigmat = () => {
   return (
@@ -38,6 +39,7 @@ const Paradigmat = () => {
         <TurkuArtsAcademy />
         <UTA />
         <Recent />
+        <Sources />
       </main>
     </LenisScroll>
   );
