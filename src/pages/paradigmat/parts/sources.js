@@ -69,7 +69,7 @@ const Sources = () => {
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
             Porvoon työväenopiston (nyk. Porvoon kansalaisopisto) esittämä
-            Aleksis Kiven näytelmä "Yö ja Päivä" 1950-luvulla.
+            Aleksis Kiven näytelmä &quot;Yö ja Päivä&quot; 1950-luvulla.
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
             6
@@ -172,9 +172,7 @@ const Sources = () => {
           </span>
         </li>
         <li className="grid without-row-gap">
-          <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            
-          </span>
+          <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7"></span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
             Miley Cyrus - Wrecking Ball
           </span>

@@ -422,8 +422,8 @@ const Tohtorit = () => {
               Lehmuskallio, Asko
             </span>
             <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-              Pictorial Practices in a "Cam Era" - Studying non-professional
-              camera use
+              Pictorial Practices in a &quot;Cam Era&quot; - Studying
+              non-professional camera use
             </span>
             <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
               2012
