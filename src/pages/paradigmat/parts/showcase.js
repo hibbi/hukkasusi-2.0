@@ -2,7 +2,7 @@ const Showcase = () => {
   return (
     <section className="text-medium font-normal">
       <div className="mb-12">
-        <h2>
+        <h2 className="font-medium">
           <span>Murroskohdat</span>
         </h2>
       </div>
