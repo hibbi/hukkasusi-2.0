@@ -53,17 +53,6 @@ const Showcase = () => {
         </li>
         <li className="grid without-row-gap">
           <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
-            Lahden taideoppilaitos
-          </span>
-          <span className="col-span-4 lg:col-start-7 lg:col-end-12">
-            Valokuva osana muotoilua
-          </span>
-          <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
-            1960–
-          </span>
-        </li>
-        <li className="grid without-row-gap">
-          <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
             Kansalaisopistot
           </span>
           <span className="col-span-4 lg:col-start-7 lg:col-end-12">
@@ -93,6 +82,17 @@ const Showcase = () => {
           </span>
           <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
             1970
+          </span>
+        </li>
+        <li className="grid without-row-gap">
+          <span className="col-span-4 md:col-span-3 lg:col-start-1 lg:col-end-7">
+            Lahden taideoppilaitos
+          </span>
+          <span className="col-span-4 lg:col-start-7 lg:col-end-12">
+            Valokuva itsenäisenä oppiaineena
+          </span>
+          <span className="col-span-4 md:col-span-1 lg:col-start-12 lg:col-end-13">
+            1971–
           </span>
         </li>
         <li className="grid without-row-gap">
