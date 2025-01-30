@@ -6,7 +6,7 @@ const Lahti = () => {
       <div className="text-medium grid">
         <h2 className="col-span-4 lg:col-span-3 flex flex-col font-medium">
           <time className="underline decoration-2 underline-offset-4">
-            1960–
+            1971–
           </time>
           <span>Lahden taideoppilaitos</span>
         </h2>
