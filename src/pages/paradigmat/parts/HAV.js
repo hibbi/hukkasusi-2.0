@@ -16,14 +16,18 @@ const HAV = () => {
             src="/paradigmat/1201_lampen_o_perustajajas.jpg"
             width={700}
             height={928}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="HAV ry perustamiskokous"
           />
+          <figcaption className="font-normal text-xs mt-3">
+            Helsingin Amatööri-valokuvaajat ry:n perustamiskokous (1929).
+            Kameraseuran arkisto.
+          </figcaption>
         </figure>
         <p className="col-span-4 lg:col-span-6 lg:col-start-7 font-normal">
           Vuonna 1922 Helsingissä perustettu amatöörivalokuvaajien yhdistys HAV
-          järjesti jäsenilleen ensimmäisen valokuvakurssinsa,{" "}
-          <em>opastuskurssin bromiöljymenetelmässä</em>, ja vuonna 1929 se
-          muutti nimensä Kameraseura ry:ksi.
+          järjesti jäsenilleen ensimmäisen valokuvakurssinsa
+          bromiöljymenetelmästä ja muutti nimensä vuonna 1929 Kameraseura
+          ry:ksi.
         </p>
       </div>
     </section>

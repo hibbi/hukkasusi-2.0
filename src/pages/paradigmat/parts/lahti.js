@@ -16,14 +16,16 @@ const Lahti = () => {
             src="/paradigmat/murhakopla.jpg"
             width={640}
             height={480}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Lahden Muotoiluinstituutti - brändi-taideoppilaitos"
           />
+          <figcaption className="font-normal text-xs mt-3">
+            Lahden Muotoiluinstituutti - brändi-taideoppilaitos
+          </figcaption>
         </figure>
         <p className="col-span-4 lg:col-span-6 lg:col-start-7 font-normal">
-          Lahdessa alettiin tarjota valokuvauksen koulutusta osana muotoilualan
-          koulutusta. Tällöin oli jo selkeästi käynnissä ammatillisen
-          valokuvaajakoulutuksen kehitys. Nykyisin kuvataiteen koulutusohjelma
-          on osa LAB-ammattikorkeakoulua.
+          Lahdessa valokuvauksen koulutus alkoi itsenäisenä opinto-ohjelmana
+          vuonna 1971, minkä myötä ammatillinen valokuvaajakoulutus kehittyi.
+          Nykyisin koulutus on osa LAB-ammattikorkeakoulua.
         </p>
       </div>
     </section>

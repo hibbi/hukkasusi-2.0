@@ -16,7 +16,7 @@ const Dokumentarismi = () => {
             src="/paradigmat/pitkanen.jpg"
             width={360}
             height={274}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Matti A. Pitkänen: Häiritty kohtaus (1953)"
           />
           <figcaption className="font-normal text-xs mt-3">
             Matti A. Pitkänen: Häiritty kohtaus (1953)
@@ -30,7 +30,7 @@ const Dokumentarismi = () => {
             src="/paradigmat/ben-kaila.jpg"
             width={400}
             height={270}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Ben Kaila: Eskilstuna, Ruotsi (1972). Sarjasta: Siirtosuomalainen."
           />
           <figcaption className="text-xs mt-3">
             Ben Kaila: Eskilstuna, Ruotsi (1972). Sarjasta: Siirtosuomalainen.
@@ -42,7 +42,7 @@ const Dokumentarismi = () => {
             src="/paradigmat/sammallahti.jpg"
             width={400}
             height={270}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Pentti Sammallahti: Helsinki, Finland (1983)."
           />
           <figcaption className="text-xs mt-3">
             Pentti Sammallahti: Helsinki, Finland (1983).
@@ -52,12 +52,16 @@ const Dokumentarismi = () => {
           1960-luku oli dokumentarismin aikaa, ja suomalaiset
           valokuvataiteilijat alkoivat ottaa kantaa yhteiskunnallisiin
           kysymyksiin. Tällöin valokuvauksen rooli oli enimmäkseen
-          dokumentaarinen.
+          dokumentaarinen. <em>The Family of Man</em> -näyttely (1959
+          Helsingissä) toimi innoittajana, sillä se antoi valokuvaajille
+          &quot;luvan&quot; tarttua yhteiskunnallisiin aiheisiin ja valokuvata
+          arkielämän eri puolilta.
         </p>
         <p className="col-span-4 lg:col-span-6">
-          The Family of Man -näyttely (1959 Helsingissä) toimi innoittajana,
-          sillä se antoi valokuvaajille &quot;luvan&quot; tarttua
-          yhteiskunnallisiin aiheisiin ja valokuvata arkielämän eri puolilta.
+          Myös yhteiskunnan muuttuminen vaikutti valokuvan asemaan. 1970-luvun
+          radikaali yhteiskunnallisuus synnytti nosti esiin uudenlaisia
+          näkökulmia myös valokuvaan. Nykyisen suomalaisen valokuvataiteen pohja
+          on 1960- ja 1970-luvun humanistisessa dokumentarismissa.
         </p>
       </div>
     </section>

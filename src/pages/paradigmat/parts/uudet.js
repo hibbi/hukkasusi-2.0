@@ -15,8 +15,11 @@ const Recent = () => {
             src="/paradigmat/miley-cyrus-wrecking-ball-video-2-650-430.webp"
             width={650}
             height={430}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Miley Cyrus - Wrecking Ball. Sony Music Entertainment."
           />
+          <figcaption className="font-normal text-xs mt-3">
+            Miley Cyrus - Wrecking Ball. Sony Music Entertainment.
+          </figcaption>
         </figure>
       </div>
       <div className="grid mt-[var(--sub-gap)] font-normal text-medium">

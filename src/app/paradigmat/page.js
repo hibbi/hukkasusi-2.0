@@ -23,6 +23,7 @@ import Dokumentarismi from "@/pages/paradigmat/parts/paradigm/1960";
 import Kahdeksankymmenta from "@/pages/paradigmat/parts/paradigm/1980";
 import Ysari from "@/pages/paradigmat/parts/paradigm/1990";
 import Millenium from "@/pages/paradigmat/parts/paradigm/2000";
+import Inha from "@/pages/paradigmat/parts/paradigm/inha";
 
 const Paradigmat = () => {
   const [showHistory, setShowHistory] = useState(false);
@@ -62,11 +63,11 @@ const Paradigmat = () => {
             <TurkuArtsAcademy />
             <UTA />
             <Recent />
-            <Sources />
           </div>
         )}
         {showParadigm && (
           <div id="paradigm" className="flex flex-col gap-[var(--section-gap)]">
+            <Inha />
             <Dokumentarismi />
             <Kahdeksankymmenta />
             <Ysari />

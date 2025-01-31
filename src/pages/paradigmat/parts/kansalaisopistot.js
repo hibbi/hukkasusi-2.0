@@ -16,8 +16,15 @@ const Kansalaisopistot = () => {
             src="/paradigmat/galleria0115.jpg"
             width={800}
             height={507}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt='Porvoon työväenopiston (nyk. Porvoon kansalaisopisto) esittämä
+            Aleksis Kiven näytelmä "Yö ja Päivä" 1950-luvulla.
+            (Porvoon kansalaisopiston arkisto)'
           />
+          <figcaption className="font-normal text-xs mt-3">
+            Porvoon työväenopiston (nyk. Porvoon kansalaisopisto) esittämä
+            Aleksis Kiven näytelmä &quot;Yö ja Päivä&quot; 1950-luvulla.
+            (Porvoon kansalaisopiston arkisto)
+          </figcaption>
         </figure>
         <p className="col-span-4 lg:col-span-6 lg:col-start-7 font-normal">
           Kansalaisopistot alkoivat tarjota valokuvauskursseja 1960-luvulla.

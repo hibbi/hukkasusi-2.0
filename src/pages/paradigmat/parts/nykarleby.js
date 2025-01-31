@@ -16,8 +16,13 @@ const Nykarleby = () => {
             src="/paradigmat/Foto_utstallning__ScaleHeightWzQ4MF0_CropPositionWyIzNjAiLDQ4MCwwLCIxNy4yNSUiXQ.jpg"
             width={360}
             height={480}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Aktuella projekt inom kultur som förändringskraft. Yrkeshögskolan
+            Novia."
           />
+          <figcaption className="font-normal text-xs mt-3">
+            Aktuella projekt inom kultur som förändringskraft. Yrkeshögskolan
+            Novia.
+          </figcaption>
         </figure>
         <p className="col-span-4 lg:col-span-6 lg:col-start-7 font-normal">
           Uusikaarlepyyssä sijaitseva ruotsinkielinen taidekoulu on ollut tärkeä

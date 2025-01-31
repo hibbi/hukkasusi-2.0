@@ -16,8 +16,11 @@ const Tohtorit = () => {
             src="/paradigmat/C5BA76BC-1464-98CD-BFEC-41DE863447FC.jpg"
             width={1200}
             height={794}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Promootio 1993. Aalto-yliopiston arkisto."
           />
+          <figcaption className="font-normal text-xs mt-3">
+            Promootio 1993. Aalto-yliopiston arkisto.
+          </figcaption>
         </figure>
       </div>
       <div className="">

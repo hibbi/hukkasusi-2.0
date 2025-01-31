@@ -1,6 +1,6 @@
 const Hero = ({ onShowHistory, onShowParadigm }) => {
   return (
-    <section className="relative h-[calc(100vh-4rem)] flex flex-col items-center content-between justify-between text-medium font-normal">
+    <section className="relative h-[calc(100vh-4rem)] flex flex-col items-center gap-[10vh] justify-center text-medium font-normal">
       <div className="w-2/3">
         <h1 className="grave text-3xl leading-none md:text-huge flex flex-col">
           <span>Valokuvataiteen asema Suomessa</span>

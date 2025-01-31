@@ -18,21 +18,23 @@ const Cajander = () => {
             height={928}
             alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
           />
+          <figcaption className="font-normal text-xs mt-3">
+            Henrik Cajander: Nobelin talo (1842)
+          </figcaption>
         </figure>
       </div>
       <div className="grid mt-[var(--sub-gap)] font-normal text-medium">
         <p className="col-span-4 lg:col-span-6">
           Suomen ensimmäisen dagerrotyypin otti 3.11.1842 todennäköisesti Henrik
-          Cajander, turkulainen lääketieteen opiskelija ja kemisti, joka oli
-          kiinnostunut valokuvauksen uusista mahdollisuuksista.
+          Cajander, turkulainen lääketieteen opiskelija ja kemisti.{" "}
+          <em>Nobelin talo</em> oli dagerrotyyppi, joka otettiin vain kolme
+          vuotta sen jälkeen, kun ranskalainen Louis Daguerre julkisti
+          menetelmänsä.
         </p>
         <p className="col-span-4 lg:col-span-6">
-          Suomen ensimmäinen valokuva oli <em>dagerrotyyppi</em>, joka otettiin
-          vuonna 1842 – vain kolme vuotta sen jälkeen, kun ranskalainen Louis
-          Daguerre julkisti menetelmänsä. Myöhemmin kehittyneet
-          positiivi-negatiivitekniikat, kuten kalotypia ja märkälevymenetelmä,
-          syrjäyttivät dagerrotypian sen yksittäiskuvaisuuden ja monistamisen
-          vaikeuden vuoksi.
+          Myöhemmin kehittyneet positiivi-negatiivitekniikat, kuten kalotypia ja
+          märkälevymenetelmä, syrjäyttivät dagerrotypian sen
+          yksittäiskuvaisuuden ja monistamisen vaikeuden vuoksi.
         </p>
       </div>
     </section>

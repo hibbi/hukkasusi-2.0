@@ -16,7 +16,7 @@ const Kahdeksankymmenta = () => {
             src="/paradigmat/bremer.jpg"
             width={591}
             height={797}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Stefan Bremer: Splashman (1984). Sarjasta: Helsinki by Night."
           />
           <figcaption className="font-normal text-xs mt-3">
             Stefan Bremer: Splashman (1984). Sarjasta: Helsinki by Night.
@@ -30,7 +30,7 @@ const Kahdeksankymmenta = () => {
             src="/paradigmat/puranen.jpg"
             width={940}
             height={701}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Jorma Puranen: 1 (1991). Sarjasta: Imaginary Homecoming."
           />
           <figcaption className="text-xs mt-3">
             Jorma Puranen: 1 (1991). Sarjasta: Imaginary Homecoming.
@@ -41,6 +41,15 @@ const Kahdeksankymmenta = () => {
           taiteelliseksi ilmaisuksi. 1980-luvulla suomalaisessa
           valokuvataiteessa alettiin siirtyä dokumentarismista kohti
           subjektiivisempaa ja henkilökohtaisempaa ilmaisua:
+        </p>
+        <p className="col-span-4 lg:col-span-6">
+          Vanha lähinnä mestari-kisälli -järjestelmään perustunut
+          koulutussysteemi vaihtui ammatilliseen, monia näkökulmia
+          sisältäneeseen opetukseen, jossa teknisten ja ammatillisten
+          valmiuksien ohella välitettiin myös valokuvan tradioita ja erilaisia
+          käyttötapoja. Tietoisuus valokuvauksen historioista ja traditioista
+          antoi uudelle kuvaajapolvelle laajemmat eväät tarttua valokuvauksen
+          mahdollisuuksiin.
         </p>
       </div>
     </section>

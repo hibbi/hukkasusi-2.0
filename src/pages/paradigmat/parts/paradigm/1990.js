@@ -16,7 +16,7 @@ const Ysari = () => {
             src="/paradigmat/mannikko.jpg"
             width={425}
             height={534}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Esko Männikkö: Sodankylä (1991). Sarjasta: Naarashauki."
           />
           <figcaption className="font-normal text-xs mt-3">
             Esko Männikkö: Sodankylä (1991). Sarjasta: Naarashauki.
@@ -30,7 +30,7 @@ const Ysari = () => {
             src="/paradigmat/mannikko-2.jpg"
             width={639}
             height={512}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Esko Männikkö: Kuivaniemi (1991). Sarjasta: Naarashauki."
           />
           <figcaption className="text-xs mt-3">
             Esko Männikkö: Kuivaniemi (1991). Sarjasta: Naarashauki.
@@ -42,7 +42,7 @@ const Ysari = () => {
             src="/paradigmat/lehtola.jpg"
             width={1006}
             height={800}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Jouko Lehtola: Untitled (1996). Sarjasta: Young Heroes."
           />
           <figcaption className="text-xs mt-3">
             Jouko Lehtola: Untitled (1996). Sarjasta: Young Heroes.
@@ -54,7 +54,7 @@ const Ysari = () => {
             src="/paradigmat/lehtola-2.jpg"
             width={636}
             height={800}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Jouko Lehtola: Untitled (1996). Sarjasta: Young Heroes."
           />
           <figcaption className="text-xs mt-3">
             Jouko Lehtola: Untitled (1996). Sarjasta: Young Heroes.
@@ -66,7 +66,7 @@ const Ysari = () => {
             src="/paradigmat/itkonen.jpg"
             width={940}
             height={940}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Tiina Itkonen: Tumas (1998)."
           />
           <figcaption className="text-xs mt-3">
             Tiina Itkonen: Tumas (1998).
@@ -78,7 +78,7 @@ const Ysari = () => {
             src="/paradigmat/itkonen-2.jpg"
             width={940}
             height={724}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Tiina Itkonen: Iceberg 1 (2005)."
           />
           <figcaption className="text-xs mt-3">
             Tiina Itkonen: Iceberg 1 (2005).
@@ -90,7 +90,7 @@ const Ysari = () => {
             src="/paradigmat/parantainen.jpg"
             width={940}
             height={798}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Jyrki Parantainen: Earth 1 (1989). Sarjasta: Earth."
           />
           <figcaption className="text-xs mt-3">
             Jyrki Parantainen: Earth 1 (1989). Sarjasta: Earth.
@@ -102,7 +102,7 @@ const Ysari = () => {
             src="/paradigmat/parantainen-2.jpg"
             width={940}
             height={718}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Jyrki Parantainen: FIRE No 1 (24.2.1997, Helsinki, Finland)."
           />
           <figcaption className="text-xs mt-3">
             Jyrki Parantainen: FIRE No 1 (24.2.1997, Helsinki, Finland).

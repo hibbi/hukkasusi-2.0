@@ -16,8 +16,13 @@ const TurkuArtsAcademy = () => {
             src="/paradigmat/tmk.161026912438800-0-original.jpg"
             width={1023}
             height={680}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Turun taideyhdistyksen piirustuskoulu. Taiteilija H. Henriksson
+            opettaa etsausta."
           />
+          <figcaption className="font-normal text-xs mt-3">
+            Turun taideyhdistyksen piirustuskoulu. Taiteilija H. Henriksson
+            opettaa etsausta. Turun museokeskus.
+          </figcaption>
         </figure>
       </div>
       <div className="grid mt-[var(--sub-gap)] font-normal text-medium">

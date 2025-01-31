@@ -20,13 +20,18 @@ const TaikIltakoulu = () => {
             height={680}
             alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
           />
+          <figcaption className="font-normal text-xs mt-3">
+            Ateneum-rakennuksen historiaa ja työskentelyä iltakoulussa:
+            piirustusharjoitus. Aalto-yliopiston arkisto.
+          </figcaption>
         </figure>
       </div>
       <div className="grid mt-[var(--sub-gap)] font-normal text-medium">
         <p className="col-span-4 lg:col-span-6">
-          Helsingissä perustettu Taideteollisen oppilaitoksen iltakoulu vastasi kasvaneeseen tarpeeseen
-          valokuvauksen koulutuksesta. Tätä ennen valokuvaamista oli voinut
-          oppia joko kokeneemmalta valokuvaajalta tai opettelemalla itse.
+          Helsingissä perustettu Taideteollisen oppilaitoksen iltakoulu vastasi
+          kasvaneeseen tarpeeseen valokuvauksen koulutuksesta. Tätä ennen
+          valokuvaamista oli voinut oppia joko kokeneemmalta valokuvaajalta tai
+          opettelemalla itse.
         </p>
         <p className="col-span-4 lg:col-span-6">
           Koulutus toimi iltakouluna aina vuoteen 1973 asti, jolloin valtiolle

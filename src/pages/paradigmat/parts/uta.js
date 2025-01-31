@@ -16,11 +16,14 @@ const UTA = () => {
             src="/paradigmat/aihekuva_visuaalinen-journalismi_valokuvaaja_14112017.webp"
             width={1440}
             height={480}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Visuaalisen journalismin ja visuaalisen tutkimuksen maisteriohjelma"
           />
+          <figcaption className="font-normal text-xs mt-3">
+            Visuaalisen journalismin ja visuaalisen tutkimuksen maisteriohjelma. Tampereen korkeakouluyhteisö.
+          </figcaption>
         </figure>
         <p className="col-span-4 lg:col-span-6 lg:col-start-7 font-normal">
-          Perustettiin vastaamaan kasvaneeseen tarpeeseen valokuvauksen ja
+          Tampereen yliopiston kuvajournalismin koulutusohjelma perustettiin vastaamaan kasvaneeseen tarpeeseen valokuvauksen ja
           journalismin yhdistämisestä. Koulutuksen taustalla oli halu kehittää
           ja tarjota ammattitaitoa erityisesti visuaalisessa viestinnässä ja
           valokuvajournalismissa.

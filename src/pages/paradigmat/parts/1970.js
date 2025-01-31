@@ -16,8 +16,13 @@ const Taiteeksi = () => {
             src="/paradigmat/D2447C1D-8384-38F8-9F1C-8CBCC83B52D4.jpg"
             width={1024}
             height={985}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Opiskelijoita ja opetustilanteita 1970-luku; Hannu Kähönen
+            opettamassa. Aalto-yliopiston arkisto."
           />
+          <figcaption className="font-normal text-xs mt-3">
+            Opiskelijoita ja opetustilanteita 1970-luku; Hannu Kähönen
+            opettamassa. Aalto-yliopiston arkisto.
+          </figcaption>
         </figure>
         <p className="col-span-4 lg:col-span-6 lg:col-start-7 font-normal">
           Valokuvataide vakiintui osaksi suomalaista taidekenttää: Helsingin

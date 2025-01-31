@@ -16,8 +16,14 @@ const Kamerataidetoimikunta = () => {
             src="/paradigmat/1A66623E-0B1E-4B1C-A644-AEAEE5FF55AF.jpg"
             width={1200}
             height={794}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Eteläesplanadi 6 Valtion kamerataidetoimikunnan tilaisuus
+            Valtioneuvoston juhlahuoneistossa Smolnassa"
           />
+          <figcaption className="font-normal text-xs mt-3">
+            Eteläesplanadi 6 Valtion kamerataidetoimikunnan tilaisuus
+            Valtioneuvoston juhlahuoneistossa Smolnassa. Helsingin
+            kaupunginmuseo
+          </figcaption>
         </figure>
       </div>
       <div className="grid mt-[var(--sub-gap)] font-normal text-medium">

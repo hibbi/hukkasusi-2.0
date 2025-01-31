@@ -15,24 +15,27 @@ const Vilho = () => {
             src="/paradigmat/Vilho_502_VIII._Universala_Kongreso_Esperantista_–_Albumo_(cropped).jpg"
             width={524}
             height={755}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Vilho Setälä: kuvaaja tuntematon"
           />
+          <figcaption className="font-normal text-xs mt-3">
+            Vilho Setälä (1912). Valokuvaaja tuntematon.
+          </figcaption>
         </figure>
       </div>
       <div className="grid mt-[var(--sub-gap)] font-normal text-medium">
         <p className="col-span-4 lg:col-span-6">
           Vilho Setälä (1892–1985) oli suomalainen valokuvaaja, kirjailija ja
-          valokuvauksen teoreetikko, joka vaikutti merkittävästi suomalaisen
-          valokuvakulttuurin kehittymiseen. Hän oli yksi keskeisistä hahmoista
-          suomalaisen taidevalokuvauksen edistämisessä ja valokuvauksen
-          opetuksen kehittämisessä. Setälä oli mukana edistämässä{" "}
-          <em>piktorialismia</em>, valokuvauksen taidesuuntausta, joka korosti
-          maalausmaisia ja pehmeitä kuvapintoja.
+          teoreetikko, joka vaikutti merkittävästi suomalaisen
+          valokuvakulttuurin kehittymiseen. Hän oli keskeinen hahmo
+          taidevalokuvauksen edistämisessä sekä valokuvauksen opetuksen
+          kehittämisessä.
         </p>
         <p className="col-span-4 lg:col-span-6">
-          Valokuvauksen taito: Eteenpäin pyrkivän harrastajan opas (1929) oli
-          yksi ensimmäisistä suomenkielisistä valokuvauksen oppikirjoista, joka
-          oli suunnattu harrastajavalokuvaajille.
+          Setälä oli mukana edistämässä piktorialismia, joka korosti
+          maalausmaisia ja pehmeitä kuvapintoja. Hänen kirjansa{" "}
+          <em>Valokuvauksen taito: Eteenpäin pyrkivän harrastajan opas</em>{" "}
+          (1929) oli yksi ensimmäisistä suomenkielisistä valokuvauksen
+          oppikirjoista.
         </p>
       </div>
     </section>

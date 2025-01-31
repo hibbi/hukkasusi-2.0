@@ -19,8 +19,12 @@ const Taik = () => {
             src="/paradigmat/B6920B3C-6AD6-E75D-10C5-3C4D74EB0EC9.jpg"
             width={1023}
             height={680}
-            alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+            alt="Taideteollinen korkeakoulu, Hämeentie, Arabianranta. Aalto-yliopiston arkisto."
           />
+          <figcaption className="font-normal text-xs mt-3">
+            Taideteollinen korkeakoulu, Hämeentie, Arabianranta.
+            Aalto-yliopiston arkisto.
+          </figcaption>
         </figure>
       </div>
       <div className="grid mt-[var(--sub-gap)] font-normal text-medium">

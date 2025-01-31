@@ -14,8 +14,21 @@ return (
           src="/paradigmat/d2004_9_33-1000x675.webp"
           width={1200}
           height={794}
-          alt="Kuvituskuva: Suomen ensimmäinen valokuva, 3.11.1842"
+          alt="Valokuvajärjestöjen Neuvottelukunnan perustamiskirja
+            allekirjoitettiin 30.5.1968. Vasemmalta valtion
+            kamerataidetoimikunnan edustaja Matti A. Pitkänen, lehtikuvaajien
+            Kalle Kultala, SKsLn Mikko Karjanoja, SVL:n Kai Nordberg,
+            Kamerataiteen yhdistyksen Ritva Renqvist, mainoskuvaajien Pentti
+            Helanne"
         />
+        <figcaption className="font-normal text-xs mt-3">
+          Valokuvajärjestöjen Neuvottelukunnan perustamiskirja allekirjoitettiin
+          30.5.1968. Vasemmalta valtion kamerataidetoimikunnan edustaja Matti A.
+          Pitkänen, lehtikuvaajien Kalle Kultala, SKsLn Mikko Karjanoja, SVL:n
+          Kai Nordberg, Kamerataiteen yhdistyksen Ritva Renqvist,
+          mainoskuvaajien Pentti Helanne. Ilkka Pohjanpalo / Suomen
+          valokuvataiteen museo
+        </figcaption>
       </figure>
     </div>
     <Image
