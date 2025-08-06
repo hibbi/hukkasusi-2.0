@@ -3,10 +3,10 @@ const Curriculum = () => {
     <div className="flex flex-col md:grid md:grid-cols-12 gap-x-[1.5vw] mx-8 py-12 text-base">
       <ul className="md:col-span-6 md:col-start-3">
         <h2>Koulutus:</h2>
-        <li>2017–2022 Aalto-yliopisto, valokuvataide, taiteen maisteri</li>
-        <li>2020– Lapin yliopisto, kuvataidekasvatus, taiteen maisteri</li>
-        <li>2013–2017 Turun taideakatemia, kuvataide</li>
-        <li>2016 Viron taideakatemia, valokuvataide</li>
+        <li>2025 Lapin yliopisto, kuvataidekasvatus, taiteen maisteri</li>
+        <li>2022 Aalto-yliopisto, valokuvataide, taiteen maisteri</li>
+        <li>2017 Turun taideakatemia, valokuvataide, kuvataiteilija (AMK)</li>
+        <li>2016 Viron taideakatemia, valokuvataide, vaihto-opinnot</li>
       </ul>
       <ul className="md:col-span-5 md:col-start-3 md:row-start-2 py-8">
         <h2>Valitut näyttelyt:</h2>

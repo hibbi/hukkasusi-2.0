@@ -17,7 +17,7 @@ const Ylikyla = () => {
             poliittinen taide
           </p>
         </div>
-        <figure className="w-full flex-shrink-0 sm:w-[17.5rem] lg:w-[37.8125rem] lg:h-[25.25rem] flex">
+        <figure className="w-full flex">
           <Image
             className="object-cover"
             src="/ylikyla.jpg"

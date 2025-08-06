@@ -1,75 +1,37 @@
-import { getClient } from "@/lib/apolloClient";
-import { gql } from "@apollo/client";
-import Block, { PostBlocks } from "@/components/Block";
-
-const query = gql`
-  query {
-    posts(first: 30, where: { orderby: { field: DATE, order: DESC } }) {
-      nodes {
-        slug
-      }
-    }
-  }
-`;
-
-const GetSinglePostWithBlocks = gql`
-  query GetSinglePostWithBlocks($slug: ID!) {
-    post(id: $slug, idType: SLUG) {
-      id
-      title
-      slug
-      year
-      ...PostBlocks
-    }
-  }
-  ${PostBlocks}
-`;
-
-async function getPost(slug) {
-  const { data } = await getClient().query({
-    query: GetSinglePostWithBlocks,
-    variables: { slug: slug },
-  });
-  //console.log('RESPONSE:', data)
-  return data.post;
-}
-
-export async function generateStaticParams({ params }) {
-  const { data } = await getClient().query({
-    query: query,
-    variables: { slug: params.slug },
-  });
-  //console.log("generateStaticParams", data);
-  return data.posts.nodes.map((post) => ({
-    slug: post.slug,
-  }));
-}
+import { projectsData } from "@/components/projects";
+import Image from "next/image";
 
 export const metadata = {
   title: "Samuli Susihukka – portfolio",
   description: "Olen kiinnostunut pienistä eleistä taiteessa.",
 };
 
+
 export default async function Post({ params }) {
-  try {
-    const { slug } = await params;
-    const post = await getPost(slug);
-    if (post) {
-      return (
-        <div className="grid px-4">
-          <div className="col-span-4 md:col-span-6 md:col-start-3">
-            <h1 className="text-base">{post.title}</h1>
-          </div>
-          {post.blocks.map((block, index) => (
-            <Block block={block} key={index} />
-          ))}
-        </div>
-      );
-    } else {
-      return <div>Post not found with the slug {params.slug}</div>;
-    }
-  } catch (error) {
-    console.error("Error fetching data:", error);
-    return <div>Error fetching data</div>;
-  }
+  const { slug } = await params;
+  const project = projectsData.find((p) => p.slug === slug);
+
+  return (
+    <div className="grid px-4 pb-4 pt-12">
+      <div className="col-span-4 md:col-span-6 md:col-start-3">
+        <h1 className="text-base">{project.title} <time>({project.year})</time></h1>
+      </div>
+      <div className="col-span-4 md:col-span-5 md:col-start-3 md:row-start-2 py-8 text-base leading-snug">
+        <p>{project.description}</p>
+      </div>
+      <div className="col-span-4 md:col-start-3 md:col-end-10 md:row-start-3 flex flex-col gap-y-8">
+        {project.images.map((image) => (
+          <figure key={image.id}>
+            <Image
+              height={image.height}
+              width={image.width}
+              alt={`Samuli Susihukan teos ${image.altText}, valokuva`}
+              src={`/portfolio/${image.sourceUrl}`}
+            />
+            <figcaption className="text-right text-base">{ image.altText }</figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  );
 }
