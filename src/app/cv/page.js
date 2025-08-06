@@ -1,6 +1,6 @@
 const Curriculum = () => {
   return (
-    <div className="flex flex-col md:grid md:grid-cols-12 gap-x-[1.5vw] mx-8 py-12 text-base">
+    <div className="flex flex-col md:grid md:grid-cols-12 gap-x-[1.5vw] px-4 py-12 text-base">
       <ul className="md:col-span-6 md:col-start-3">
         <h2>Koulutus:</h2>
         <li>2025 Lapin yliopisto, kuvataidekasvatus, taiteen maisteri</li>
